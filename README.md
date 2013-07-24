@@ -1,16 +1,16 @@
 # Spree Email to Friend
 
-[![Build Status](https://travis-ci.org/futhr/spree_email_to_friend.png)](https://travis-ci.org/futhr/spree_email_to_friend)
+[![Build Status](https://travis-ci.org/futhr/spree_email_to_friend.png?branch=2-0-stable)](https://travis-ci.org/futhr/spree_email_to_friend)
 [![Dependency Status](https://gemnasium.com/futhr/spree_email_to_friend.png)](https://gemnasium.com/futhr/spree_email_to_friend)
-[![Coverage Status](https://coveralls.io/repos/futhr/spree_email_to_friend/badge.png?branch=master)](https://coveralls.io/r/futhr/spree_email_to_friend)
+[![Coverage Status](https://coveralls.io/repos/futhr/spree_email_to_friend/badge.png?branch=2-0-stable)](https://coveralls.io/r/futhr/spree_email_to_friend)
 
 The Spree Email to Friend extension enables you to send the product reference to your friend via email.
 
 ## Installation
 
-1. Add the following to your Gemfile
+1. Add to your `Gemfile`
 ```ruby
-gem 'spree_email_to_friend', github: 'futhr/spree_email_to_friend'
+gem 'spree_email_to_friend', github: 'futhr/spree_email_to_friend', branch: '2-0-stable'
 ```
 
 2. Run `bundle install`
@@ -46,5 +46,5 @@ Copyright (c) 2013 Jorge Calás Lozano, Roman Smirnov, Trung Lê, released under
 
 [1]: http://www.fsf.org/licensing/essays/free-sw.html
 [2]: https://github.com/futhr/spree_email_to_friend/issues
-[3]: https://github.com/futhr/spree_email_to_friend/tree/master/LICENSE.md
+[3]: https://github.com/futhr/spree_email_to_friend/blob/2-0-stable/LICENSE.md
 [4]: http://www.localeapp.com/projects/4931

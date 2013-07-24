@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree', '~> 2.0.3'
+  s.add_runtime_dependency 'spree', '~> 2.0.0'
   s.add_runtime_dependency 'recaptcha', '>= 0.3.1'
 
   s.add_development_dependency 'rspec-rails', '~> 2.13'
@@ -37,5 +37,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'fuubar', '>= 0.0.1'
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'launchy'
+  s.add_development_dependency 'coveralls'
   s.add_development_dependency 'pry-rails'
 end
